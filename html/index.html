@@ -7,21 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-<main class="border border-dark border-2 rounded-5 pt-5  pe-5 ps-5 ms-5 me-5 mt-5  shadow-lg p-3 pb-xxl-5 bg-body-tertiary">
+<main class="border border-dark border-2 rounded-5  mt-5 p-4 w-50 mx-auto bg-success bg-opacity-50 ">
     <img  src="../img/logo-afpa.png" class="rounded-5 mx-auto d-block rounded-start-pill mt-5 mb-5" alt="">
-    <h1 id="mon_id" class="border border-black rounded-5 bg-success-subtle mt-5 mb-5 ms-5 me-5 pt-3 pb-3 text-center">Bienvenue sur l'application AFPA !</h1>
+    <h1 id="mon_id" class="border border-black rounded-5 bg-success-subtle mt-1 mb-5 ms-5 me-5 pt-1 pb-3 text-center">Bienvenue sur l'application AFPA !</h1>
     <form class="mt-5 mb-5 pt-5 pb-5 " action="GET" action="./userDetails.html">
-        <fieldset class="pt-5 pb-5 ps-5 pe-5 mt-5 mb-5 ms-5 me-5 bg-success-subtle emphasis-success border border-dark border-2 rounded-5 ">
+        <fieldset class="pt-5 pb-5 ps-5 pe-5 mt-3 mb-2 ms-5 me-5 bg-success-subtle emphasis-success border border-dark border-2 rounded-5 ">
             <legend class="float-none w-auto" >Accès à votre espace privé</legend>
-            <h2 class="mt-5 mb-5">Vous avez déjà un compte :</h2>
+            <h2 class="mt-3 mb-5 text-center">Vous avez déjà un compte :</h2>
             <!-- <h3>Connectez-vous</h3> -->
-            <label class="mb-5 me-5" for="email">Identifiant :
-                <input class="mb-5" type="" id="email" placeholder="mail@exemple.fr">
+            <label class="mx-auto d-block ms-5" for="email">Identifiant :
+                <input class="w-50 mx-auto ms-5 mb-5" type="email" id="email" placeholder="mail@exemple.fr">
             </label>
-            <label  for="motdepasse">Mot de passe :
-                <input type="password" id="motdepasse">
+            <label class="mx-auto d-block ms-5 " for="motdepasse">Mot de passe :
+                <input class="w-50 mx-auto ms-4" type="password" id="motdepasse">
             </label>
-            <input type="submit" value="Connecter">
+            <input class="btn btn-success rounded-3 mb-5 mt-5 mx-auto d-block " type="submit" value="Connecter">
             
         </fieldset>    
     </form>

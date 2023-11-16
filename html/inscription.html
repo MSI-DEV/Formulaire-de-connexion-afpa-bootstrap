@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="../assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<main class=" border border-dark border-2 rounded-5 pt-5  pe-5 ps-5 ms-5 me-5 mt-5  shadow-lg p-3 pb-xxl-5 bg-body-tertiary">
+<main class="border border-dark border-2 rounded-5 shadow-lg p-5  mt-5 w-50 mx-auto bg-success bg-opacity-50">
     <img class="rounded-5 mx-auto d-block rounded-start-pill mt-5 mb-5" src="../img/logo-afpa.png" alt="">
-    <h1 class="border border-black rounded-5 bg-success-subtle mt-5 mb-5 ms-5 me-5 pt-3 pb-3 text-center" id="mon_id">Bienvenue sur l'application AFPA !</h1>
-    <form class="mt-5 mb-5 pt-5 pb-5 " action="GET" action="./userDetails.html">
-        <fieldset class="pt-5 pb-5 ps-5 pe-5 mt-5 mb-5 ms-5 me-5 bg-success-subtle emphasis-success border border-dark border-2 rounded-5">
+    <h1 class="border border-black rounded-5 bg-success-subtle mx-auto text-center w-75 " id="mon_id">Bienvenue sur l'application AFPA !</h1>
+    <form class="mx-auto " action="GET" action="./userDetails.html">
+        <fieldset class=" bg-success-subtle  border border-dark border-2 rounded-5 mb-5 mt-5 pb-5 mx-auto w-75">
             <legend class="float-none w-auto">Accès à votre espace privé</legend>
-            <h2 class="mt-5 mb-5">Créer votre compte :</h2>
+            <h2 class="text-center mt-3">Créer votre compte :</h2>
             <!-- <h3>Connectez-vous</h3> -->
-            <label class="mb-5 me-5" for="email">Identifiant :
-                <input class="mb-5" type="text" id="email" placeholder="mail@exemple.fr">
+            <label class="mt-5 ms-3 w-100 text-center" for="email">Identifiant :
+                <input class="w-50" type="text" id="email" placeholder="mail@exemple.fr">
             </label>
-            <label class="me-5"  for="motdepasse">Mot de passe :
-                <input type="password" id="motdepasse">
+            <label class="mt-5 w-100 text-center"  for="motdepasse" >Mot de passe :
+                <input class="w-50" type="password" id="motdepasse">
             </label>
-            <label for="confirmermotdepasse">Confirmation mot de passe :
-                <input type="password" id="motdepasse">
+            <label class="mt-5 ms-4 w-100 mb-5" for="confirmermotdepasse">Confirmation mot de passe :
+                <input class=" w-50" type="password" id="motdepasse">
             </label>
-            <input type="submit" value="inscription">
+
+            <input class="w-25 btn btn-success rounded-4  mx-auto d-grid mb-5" type="submit" value="inscription">
             
     </fieldset>    
     </form>
